@@ -37,3 +37,35 @@ Penjelasan desain kelas
   5. Kelas Civitas
   
      Menampung pricate universitas dan email. Metode terdiri dari konstruktor, getter, dan setter. Extend kelas Mahasiswa
+     
+  <br>
+  Mengapa seperti itu? <br>
+  Seluruh atribut Human digunakan oleh objek mahasiswa, dan seluruh attribut mahasiswa digunnakan oleh objek civitas. Sehingga Mahasiswa mewarisi Human, dan Civitas mewarisi Mahasiswa.
+  
+  # Penggunaan
+
+  1. ADD 
+  
+  
+    ADD {nama} {kelamin} {nim} {universitas} {prodi} {fakultas} {nik} {email}
+  
+  
+  2. CHANGE
+  
+  
+    CHANGE {jenis attribut yang valuenya akan diubah} {value yang baru} WHERE {jenis atribut yang dicari} {vvalue yang dicri}
+  
+  
+  3. DELETE 
+  
+  
+    DELETE {jenis atribut yang dicari} {value yang dicari}
+
+
+  4. PRINT
+  
+    PRINT
+  
+  5. EXIT
+  
+    EXIT
